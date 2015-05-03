@@ -6,11 +6,11 @@
 
 @font-face {
     font-family:"KBZipaDeeDooDah";
-    src: url("KBZipaDeeDooDah.ttf");
+    src: url("../fonts/KBZipaDeeDooDah.ttf");
 }
 
 body {
-  background-image: url("cardboard.jpg");
+  background-image: url("../images/background/cardboard.jpg");
   /*background-color: #00CCFF;*/
 }
 
@@ -63,7 +63,7 @@ body {
    visibility: hidden;
    position: absolute;
    display: block;
-   background: url(images/buttons/play.svg);
+   background: url(../images/buttons/play.svg);
    height: 40px;
    width: 40px;
    top: 260px;
@@ -78,7 +78,7 @@ body {
    visibility: visible;
    position: absolute;
    display: block;
-   background: url(images/buttons/now_playing.svg);
+   background: url(../images/buttons/now_playing.svg);
    height: 40px;
    width: 40px;
    top: 260px;
@@ -86,7 +86,7 @@ body {
 }
 
 .mosaic-item:hover .playing {
-   background: url(images/buttons/stop.svg);
+   background: url(../images/buttons/stop.svg);
 }
 
 footer {
