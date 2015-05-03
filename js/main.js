@@ -84,6 +84,9 @@ var create_mosaic_div = function(mosaic, mosaicName) {
 
         // stop rotating images
         clearInterval(mosaicMap[mosaicName]["interval"]);
+
+        // reset to image zero
+        reset_image(mosaicImg);
       };
     });
 
@@ -94,6 +97,9 @@ var create_mosaic_div = function(mosaic, mosaicName) {
 
       // stop rotating images
       clearInterval(mosaicMap[mosaicName]["interval"]);
+
+      // reset to image zero
+      reset_image(mosaicImg);
     });
 
     return mosaicDiv;
@@ -140,3 +146,21 @@ var rotate_image = function(imageElement) {
   mosaicMap[cMosaic]["curImage"] = nImage;
 
 };
+
+// -- reset image to first image
+var reset_image = function(imageElement) {
+  var cMosaic = imageElement.getAttribute("id").split("-")[1],
+    cMosaicIndex = mosaicMap[cMosaic]["index"],
+    cImage = mosaicMap[cMosaic]["curImage"],
+    nImage = cImage + 1,
+    numImages = mosaicMap[cMosaic]["numImages"];
+
+  // update image
+  imageElement.src = mosaicData[cMosaicIndex]["images"][0];
+  // change curImage to reflect change
+  mosaicMap[cMosaic]["curImage"] = 0;
+
+};
+
+
+
