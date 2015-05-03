@@ -14,6 +14,23 @@ body {
   /*background-color: #00CCFF;*/
 }
 
+a {
+  color:#FAEBD7;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Garamond;
+}
+
+a:hover {
+  color:#F2B15A;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Garamond;
+}
+
+
 .title {
   text-align: center;
   font-size: 40px;
