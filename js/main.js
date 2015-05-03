@@ -68,7 +68,10 @@ var create_mosaic_div = function(mosaic, mosaicName) {
         mosaicPlayButton.classList.add("playing");
         mosaicAudio.play();
 
-        // start rotating images
+        // rotate image on click
+        rotate_image(mosaicImg);
+
+        // start rotating images timer
         mosaicMap[mosaicName]["interval"] = setInterval(function(){
           rotate_image(mosaicImg);
           }, rotateInterval);
