@@ -19,14 +19,12 @@ var mosaicData = [
           ]
 },
 {  
-"mosaic": "pig", 
-"sound": "sounds/pig.mp3",
+"mosaic": "frankenstein", 
+"sound": "sounds/Frankenstein_baby.mp3",
 "images": [
-           "images/pig1.jpg",
-           "images/pig2.jpg",
-           "images/pig3.jpg",
-           "images/pig4.jpg",
-           "images/pig5.jpg"
+           "images/frank1.jpg",
+           "images/frank2.jpg",
+            "images/frank3.jpg"
           ]
 },
 {  
@@ -75,15 +73,6 @@ var mosaicData = [
           ]
 },
 {  
-"mosaic": "frankenstein", 
-"sound": "sounds/Frankenstein_baby.mp3",
-"images": [
-           "images/frank1.jpg",
-           "images/frank2.jpg",
-            "images/frank3.jpg"
-          ]
-},
-{  
 "mosaic": "pizza_face", 
 "sound": "sounds/pizza_face_decoration.mp3",
 "images": [
@@ -99,6 +88,17 @@ var mosaicData = [
            "images/mechanical_finger2.jpg",
            "images/mechanical_finger3.jpg",
            "images/mechanical_finger4.jpg",
+          ]
+},
+{  
+"mosaic": "pig", 
+"sound": "sounds/pig.mp3",
+"images": [
+           "images/pig1.jpg",
+           "images/pig2.jpg",
+           "images/pig3.jpg",
+           "images/pig4.jpg",
+           "images/pig5.jpg"
           ]
 },
 {  
