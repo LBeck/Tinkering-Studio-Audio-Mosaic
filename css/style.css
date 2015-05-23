@@ -83,8 +83,8 @@ a:hover {
    background: url(../images/buttons/play.svg);
    height: 40px;
    width: 40px;
-   top: 260px;
-   left: 20px;
+   top: 150px;
+   left: 150px;
 }
 
 .mosaic-item:hover .stopped {
@@ -98,8 +98,8 @@ a:hover {
    background: url(../images/buttons/now_playing.svg);
    height: 40px;
    width: 40px;
-   top: 260px;
-   left: 20px;
+   top: 150px;
+   left: 150px;
 }
 
 .mosaic-item:hover .playing {
