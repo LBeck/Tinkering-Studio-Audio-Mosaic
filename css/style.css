@@ -92,10 +92,10 @@ a:hover {
 }
 
 .mosaic-item .playing {
-   visibility: visible;
+   visibility: hidden;
    position: absolute;
    display: block;
-   background: url(../images/buttons/now_playing.svg);
+   background: url(../images/buttons/stop.svg);
    height: 40px;
    width: 40px;
    top: 150px;
@@ -103,7 +103,7 @@ a:hover {
 }
 
 .mosaic-item:hover .playing {
-   background: url(../images/buttons/stop.svg);
+   visibility: visible;
 }
 
 footer {
